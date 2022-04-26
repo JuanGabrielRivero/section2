@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #f9b225;
+  --main-font: "Open Sans";
+  --secondary-color: #fff;
+}
+
+body,
+h2 {
+  margin: 0;
+}
+
+.animal-categories {
+  width: 100%;
+  height: 431px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animal-categories p {
+  color: var(--secondary-color);
+  font-family: var(--main-font);
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.animal-categories-icons {
+  width: 60rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.animal-categories-icons img {
+  width: 73px;
+  height: 73px;
+}
+
+.dogs,
+.cats,
+.rodents,
+.birds,
+.reptiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  width: 133px;
+  height: 133px;
+}
